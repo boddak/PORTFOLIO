@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.profileTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.profileImage {
+    width: 150px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.profileImage img{
+    width: 180px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profileName {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.profileNameEng {
+    font-size: 18px;
+    color: #777;
+    margin: 0;
+}
+
+.profileBirth, .profileTel, .profileEmail, .profileGit {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profileBirth img, .profileTel img, .profileEmail img, .profileGit img {
+    width: 16px;
+    height: 16px;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.introTitle {
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.introMain {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.tech, .project1, .project2, .project3, .introduce, .schoole, .edu, .certification, .etc, .community {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.tech{
+    line-height: 2;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+.project{
+    font-size: 30px;
+    margin: 0;
+}
+
+.project1, .project2, .project3{
+    display: flex;
+}
+
+.houseKeeping, .popstiver, .pin{
+    width: 250px;
+}
+
+
+.houseKeeping ul, .popstiver ul, .pin ul{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.project1Title, .project2Title, .project3Title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project1Member, .project2Member, .project3Member{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project1Date, .project2Date, .project3Date{
+    background-color: lightgrey;
+    color: orangered;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    width: 140px;
+    text-align: center;
+}
+
+.project1Detail, .project2Detail, .project3Detail{
+    line-height: 2;
+}
+
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5px, 0.1fr));
+    gap: 0;
+    text-align: center;
+}
+
+.techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+}
+
+.techItem p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.techIcon {
+    width: 30px;
+    height: 30px;
+    
+}
